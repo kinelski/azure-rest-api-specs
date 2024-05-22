@@ -21,7 +21,9 @@
         "name": "endpoint",
         "in": "path",
         "required": true,
-        "type": "string"
+        "type": "string",
+        "x-ms-skip-url-encoding": true,
+        "x-ms-parameter-location": "client"
       }
     ]
   },
